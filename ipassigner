@@ -6,7 +6,7 @@ func TestIPAssigner_AssignIP(t *testing.T) {
 	if err != nil {
 		fmt.Errorf("error when ensuring dummy device exists: %v", err)
 	}
-	fmt.Println("testing ipassigner)
+	fmt.Println("testing ipassigner function")
 	tests := []struct {
 		name                string
 		ip                  string
