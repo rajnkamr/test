@@ -1,7 +1,12 @@
 func TestIPAssigner_AssignIP(t *testing.T) {
 	var dummyDevice netlink.Link
 	var err error
+<<<<<<< HEAD
 
+=======
+	
+	fmt.Println("added print line")
+>>>>>>> 9a5d253 (adding print)
 	dummyDevice, err = fakeDummyDevice(dummyDeviceName)
 	if err != nil {
 		fmt.Errorf("error when ensuring dummy device exists: %v", err)
